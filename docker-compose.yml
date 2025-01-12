@@ -13,6 +13,11 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
+    volumes:
+      - data:/var/wiki
+      
+volumes:
+  data:
 
 networks:
   default:
