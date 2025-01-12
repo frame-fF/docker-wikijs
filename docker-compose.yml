@@ -14,8 +14,8 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - data:/var/wiki
-      
+      - data:/wiki/data/content
+
 volumes:
   data:
 
